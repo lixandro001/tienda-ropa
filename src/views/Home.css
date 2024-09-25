@@ -1,0 +1,57 @@
+
+/* Hexashop.css */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+
+/* src/views/Home.css */
+.home {
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Efecto de hover */
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #4CAF50; /* Color verde */
+    font-weight: bold;
+}
+
+.add-to-cart {
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049; /* Color verde más oscuro */
+}
